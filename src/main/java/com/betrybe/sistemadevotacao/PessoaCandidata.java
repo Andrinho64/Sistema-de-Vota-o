@@ -4,17 +4,16 @@ package com.betrybe.sistemadevotacao;
  * Classe - Pessoa Candidata.
  */
 
-public class PessoaCandidata {
-  public String nome;
-  public int numero;
-  public int votos;
+public class PessoaCandidata extends Pessoa {
+  private int numero;
+  private int votos;
 
   /**
    * Constructor.
    */
 
   public PessoaCandidata(String nome, int numero) {
-    this.nome = nome;
+    super(nome);
     this.numero = numero;
     this.votos = 0;
   }

@@ -12,7 +12,6 @@ public abstract class Pessoa {
   }
 
   public Pessoa() {
-    this.nome = "";
   }
 
   public String getNome() {
