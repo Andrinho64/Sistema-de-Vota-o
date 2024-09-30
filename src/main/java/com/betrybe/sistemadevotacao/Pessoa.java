@@ -11,8 +11,12 @@ public abstract class Pessoa {
     this.nome = nome;
   }
 
+  public Pessoa() {
+    this.nome = "";
+  }
+
   public String getNome() {
-    return nome;
+    return this.nome;
   }
 
   public void setNome(String nome) {
