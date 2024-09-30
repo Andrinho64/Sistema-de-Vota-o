@@ -11,7 +11,6 @@ public class PessoaCandidata extends Pessoa {
   /**
    * Constructor.
    */
-
   public PessoaCandidata(String nome, int numero) {
     super(nome);
     this.numero = numero;
@@ -30,7 +29,7 @@ public class PessoaCandidata extends Pessoa {
     return votos;
   }
 
-  public void recebeVoto() {
+  public void receberVoto() {
     this.votos++;
   }
 }
